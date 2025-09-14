@@ -35,9 +35,9 @@ public class PlayerMovement : MonoBehaviour
 
             // Update streak
             _bounceStreak++;
-            if (_bounceForce < 7)
+            if (_bounceForce < 10)
             {
-                _bounceForce += 0.05f;
+                _bounceForce += 0.1f; 
             }
             BounceStreakText.text = _bounceStreak.ToString();
         }
