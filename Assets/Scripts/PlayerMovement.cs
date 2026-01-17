@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
             _bounceStreak++;
             if (_bounceForce < 10)
             {
-                _bounceForce += 0.1f; 
+                _bounceForce += 1f; 
             }
             BounceStreakText.text = _bounceStreak.ToString();
         }
